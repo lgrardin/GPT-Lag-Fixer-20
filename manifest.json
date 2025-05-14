@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Trimwise",
+  "version": "1.0",
+  "description": "Hides all but the last 50 messages in chatGPT",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://chatgpt.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
