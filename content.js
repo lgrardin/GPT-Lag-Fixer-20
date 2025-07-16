@@ -1,4 +1,4 @@
-const BATCH_SIZE = 50;
+const BATCH_SIZE = 20;
 let allArticles = [];
 let currentOffset = 0;
 let showMoreButton = null;
