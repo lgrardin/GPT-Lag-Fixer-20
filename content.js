@@ -1,4 +1,4 @@
-const BATCH_SIZE = 20;
+const BATCH_SIZE = 10; // Number of messages to show at once
 let allArticles = [];
 let currentOffset = 0;
 let showMoreButton = null;

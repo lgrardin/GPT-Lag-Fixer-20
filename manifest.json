@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Trimwise",
+  "name": "GPT-Lag-Fixer",
   "version": "1.0",
-  "description": "Hides all but the last 50 messages in chatGPT",
+  "description": "Hides all but the last 10 messages in chatGPT",
   "permissions": ["scripting"],
   "host_permissions": ["https://chatgpt.com/*"],
   "content_scripts": [
