@@ -1,32 +1,32 @@
-# Trimwise
 
-A simple Chrome extension that improves performance in long ChatGPT conversations by hiding older messages.  
-Displays a "Show more" button to reveal older content on demand.
+# GPT-Lag-Fixer (modifié)
 
-## 🔧 Features
+Extension Chrome simple qui améliore les performances dans les longues conversations ChatGPT en n’affichant que les 10 derniers messages.
+Un bouton “Afficher plus” permet de révéler les anciens messages si besoin.
 
-- Hides all but the last 50 messages
-- Smart "Show more" button
-- Reduces memory usage and improves scroll speed
+## 🔧 Fonctionnalités
 
-## 💡 Why?
+- N’affiche que les 10 derniers messages
+- Bouton “Afficher plus” intelligent
+- Réduit l’utilisation mémoire et accélère le défilement
 
-Long ChatGPT chats can slow down your browser. This extension fixes that.
+## 💡 Pourquoi ?
 
-## 🧑‍💻 Install
+Les longues discussions ChatGPT peuvent ralentir le navigateur. Cette extension règle ce problème.
 
-Download from the Chrome Web Store (coming soon), or use as unpacked extension:
-1. Clone the repo
-2. Go to `chrome://extensions/`
-3. Enable "Developer mode"
-4. Click "Load unpacked" → select this folder
+## 🧑‍💻 Installation
 
-## ☕ Support development
+Extension basée sur le projet original “Trimwise” (voir ci-dessous).
+Utilisation personnelle uniquement, aucune revendication sur le travail original.
 
-If you like this extension, consider buying me a coffee:
+1. Clone le repo
+2. Va sur `chrome://extensions/`
+3. Active le “Mode développeur”
+4. Clique sur “Charger l’extension non empaquetée” et sélectionne ce dossier
 
-- [☕ Ko-Fi](https://ko-fi.com/rentanek0)
+## 🙏 Remerciements
 
-## 📜 License
+Travail original : [Trimwise](https://github.com/rentanek0/trimwise) par rentanek0.
 
-MIT
+Soutiens l’auteur original : [☕ Ko-Fi](https://ko-fi.com/rentanek0)
+
